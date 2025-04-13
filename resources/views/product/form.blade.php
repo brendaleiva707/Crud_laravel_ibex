@@ -19,6 +19,10 @@
 
     </div>
     <div class="col-md-12 mt20 mt-2">
-        <button type="submit" class="btn btn-primary">{{ __('Submit') }}</button>
+        <button type="submit" class="btn btn-primary">{{ __('Save') }}</button>
+        <a class="btn btn-primary" href="{{ route('products.index') }}"> {{ __('Back') }}</a>
+    </div>
+    <div class="float-right">
+        
     </div>
 </div>
